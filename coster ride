@@ -1,0 +1,9 @@
+n = int(input())
+
+for i in range(n):
+    X, Y = input().split()
+    
+    if X>Y:
+        print("yes")
+    else:
+        print("no")
